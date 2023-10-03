@@ -1,0 +1,39 @@
+==> Access Modifiers
+1. public  : The access level of a public modifiers is everywhere.
+2. private : The access level of a private modifiers is only within the class. It cannot be accessed from the outside class.
+3. default : The access level of a default modifier is only within the package. If we don’t specify any access level, it will be 
+   defaulted.
+4. protected : The access level of a protected modifiers is only within the package and outside the package through child class or 
+   subclass. 
+=============================================================================================================================================
+==> Non-access Modifiers
+1. Sychronized : Controls thread access to a block/method. We used it to protected the exchange of output if we have executed more time. 
+2. Transcient : The member is skipped when serializing an object.  
+3. Volatile : The variable value always read from the main memory, not from a specific thread memory.
+4. Static : The member belongs to the class, not the object of that class. We used it to call and used the variable or method 
+   without create object.
+5. Final : Value can’t be changed once assigned, methods can’t be overridden and classes can’t be inherited.
+6. Abstract : If we applied to a method, It has to be implemented in a subclass and if applied to a class must contains abstract 
+   methods. It mean that we create the variable or methods in parent class but we execute on the child class that inherit from 
+   parent class. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
